@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: #191919;
   overflow: hidden;
 }
 
@@ -10,7 +10,7 @@ body {
   width: 100%;
   overflow: hidden;
   padding: 24px 0;
-  background: transparent;
+  background: #191919;
 }
 
 .track {
@@ -27,7 +27,6 @@ body {
   display: block;
 }
 
-/* Pause on hover — можно удалить, если не нужно */
 .marquee:hover .track {
   animation-play-state: paused;
 }
