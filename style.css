@@ -2,7 +2,8 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #191919;
+  background: transparent !important;
+  background-color: transparent !important;
   overflow: hidden;
 }
 
@@ -10,7 +11,8 @@ body {
   width: 100%;
   overflow: hidden;
   padding: 24px 0;
-  background: #191919;
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
 .track {
